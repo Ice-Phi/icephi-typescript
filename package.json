@@ -1,0 +1,29 @@
+{
+  "name": "@ice_phi/icephi-ts",
+  "version": "1.0.2",
+  "description": "TypeScript defense client and shield engine against prompt injections and jailbreaks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "ai-security",
+    "prompt-injection",
+    "shield",
+    "llm-security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^5.9.3"
+  }
+}
